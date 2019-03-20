@@ -4,7 +4,7 @@ $(window).on('scroll',function(){
       $('.logo-b').css({'visibility':'hidden'});
       $('.logo').css({'color':'#fff','margin-bottom':'0rem','font-size':'2rem'});
       $('.container').css({'padding-top':'0','transition':'1s'});
-      $('.b').css({'opacity':'1','transition':'3s'});
+      $('.b').css({'opacity':'1','transition':'1s'});
       $('.nav-link').removeClass('nav-wo-s');
       $('.nav-item').addClass('hvr-w-s');
 
@@ -13,7 +13,7 @@ $(window).on('scroll',function(){
   else{
     $('nav').removeClass('nav-color');
     $('.logo-b').css({'visibility':'visible'});
-      $('.logo').css('color','#FF9900');
+      $('.logo').css({'color':'#FF9900','font-size':'3.7rem'});
       $('.container').css('padding-top','3rem');
       $('.b').css({'opacity':'0','transition':'0s'});
       $('.nav-link').addClass('nav-wo-s');

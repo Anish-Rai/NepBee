@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:700');
   @import url('https://fonts.googleapis.com/css?family=Anton');
-
+body{
+  font-size: 1rem;
+}
 /* LOGO */
+
 .logo{
-  font-size: 2.3rem;
   color:#FF9900;
   font-family: 'Anton', sans-serif;
   transition: 1s;
+  font-size: 3.7rem;
 }
 .logo-b{
 color:#fff;
@@ -30,6 +33,7 @@ display: inline-block;
  /* ######  MOBILE VERSION  #### */
  /* Nav bar*/
  @media (max-width:986px){
+
 .navbar-nav.ml-auto{
   margin-top:0.5rem;
   background:#FFBC36 ;
@@ -52,8 +56,6 @@ display: inline-block;
 }
 /* MID to LARGE DEVICES */
 @media (min-width:990px){
-
-
   .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link{
     padding: 0rem 3rem;
     color:#fff;
@@ -135,9 +137,31 @@ transition: .5s;
     background-color: #FF9900;
 }
 .carousel-control-prev-icon:hover {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23FFBC36' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
 }
 
 .carousel-control-next-icon:hover {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23FFBC36' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+/* SERVICES OR SECOND SECTION */
+
+.card-img-top {
+    width: 50px;
+
+}
+#services{
+  background: url('images/heroimage.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+.card{
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-title{
+  color: #FF9900;
+}
+#who-s{
+  background: url('../images/bannerp.jpg') no-repeat center center fixed;
+  background-size: cover;
 }

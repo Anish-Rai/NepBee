@@ -1,0 +1,17 @@
+#header{
+  background: url('../images/contact.jpg') no-repeat scroll center;
+  background-size: cover;
+  height:70vh;
+}
+
+.contact-form{
+  position: relative;
+  top:-100px;
+}
+hr{
+  width:90%;
+}
+
+form{
+  margin:0px !important;
+}
